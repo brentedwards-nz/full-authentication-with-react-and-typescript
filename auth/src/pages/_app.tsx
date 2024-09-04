@@ -10,9 +10,6 @@ export default function App({
 }: AppProps) {
   return (
     <>
-      <Head>
-        <title>Authentification</title>
-      </Head>
       <SessionProvider session={session}>
         <ToastContainer
           position="top-left"
